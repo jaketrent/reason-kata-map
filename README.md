@@ -1,18 +1,29 @@
-# Basic Reason Template
+Kata for basic ReasonML language introduction.
 
-Hello! This project allows you to quickly get started with Reason and BuckleScript. If you wanted a more sophisticated version, try the `react` template (`bsb -theme react -init .`).
+## Goal
 
-# Build
+Implement a basic [map](https://en.wikipedia.org/wiki/Map_(higher-order_function)) function.
+
+## Starting State
+
+The test suite is provided, but there is no source code.  Implement a `map` implementation that passes each test.
+
+## Install
+
+Setup for Reason compilation:
+
+```bash
+npm install -g bs-platform
 ```
-npm run build
+
+Install project dependencies:
+
+```bash
+npm install
 ```
 
-# Build + Watch
+## Run Tests
 
 ```
-npm run watch
+npm test
 ```
-
-
-# Editor
-If you use `vscode`, Press `Windows + Shift + B` it will build automatically
